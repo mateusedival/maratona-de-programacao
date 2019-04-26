@@ -15,9 +15,10 @@ https://www.hackerearth.com/pt-br/practice/data-structures/arrays/1-d/practice-p
 ## Código Exemplo
 ```c
 #include <stdio.h>
-
+//Vetor de soma
 int s[1000];
 
+//Constroi e atualiza o vetor soma
 void sumConstruct(int v[],int n)
 {
 	int i;
@@ -28,6 +29,7 @@ void sumConstruct(int v[],int n)
 	
 }
 
+//Realiza a consulta num intervalo (i,j)
 int prefixSum(int i, int j)
 {
 
@@ -36,12 +38,14 @@ int prefixSum(int i, int j)
 
 int main()
 {
+	//Vetor teste
 	int v[5] = {1,2,3,4,5};
+	
 	sumConstruct(v,5);
 	int i,j;
+	//Enquanto nenhum dos valores i,j for igual a zero, continua consultando
 	while(scanf("%d %d",&i,&j) && (i && j))
 	{
-	
 		printf("%d\n",prefixSum(i,j));
 	}
 	return 0;
