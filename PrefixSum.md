@@ -1,6 +1,6 @@
 # Prefix sum
 
-Algoritmo utilizado para consultas em um determinado intervalo de um vetor. Há vetor V contendo N valores, e há um vetor S de soma, onde cada posição acumula sua posção anterior, mas a posição atual de V. S[ i ] = S[ i-1 ]+V[ i ]. Construido o vetor S, dado um intervalo (i,j), a consulta é realizada por S[ j ] - S[ i-1 ].
+Algoritmo utilizado para consultas em um determinado intervalo de um vetor. Há vetor V contendo N valores, e há um vetor S de soma, onde cada posição acumula sua posção anterior, mas a posição atual de V. S[ i ] = S[ i - 1 ] + V[ i ]. Construido o vetor S, dado um intervalo ( i , j ), a consulta é realizada por S[ j ] - S[ i - 1 ].
 
 Possui complexidade de construção e atualização O(n) e realiza cada consulta em  O(1).
 
