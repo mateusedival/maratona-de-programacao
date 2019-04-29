@@ -10,6 +10,7 @@ https://en.wikipedia.org/wiki/Prefix_sum
 
 ## Problemas
 
+https://www.spoj.com/problems/CSUMQ/
 https://www.hackerearth.com/pt-br/practice/data-structures/arrays/1-d/practice-problems/algorithm/beautiful-journey-1/?q=beauty
 
 ## Código Exemplo
